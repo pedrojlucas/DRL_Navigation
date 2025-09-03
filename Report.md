@@ -50,6 +50,15 @@ The plot of rewards for this run is as follows:
 
 <img width="356" height="236" alt="Trend_solucionDQNBanana" src="https://github.com/user-attachments/assets/72085674-89f1-4fff-89f9-c67ccac8abb4" />
 
+# Future work
+
+In my next iteration with this project I would like to try an optimization algorithm for finding the best hyperparameters for solving this problem.
+
+Regardless of hyperparameters optimization it will be very interesting doing a benchmark with some other suitable algorithms:
+
+* Dual DQN.
+* Dueling DQN.
+
 # References
 
 1.- [DQN Paper] (https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf)
