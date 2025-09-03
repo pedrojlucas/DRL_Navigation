@@ -19,13 +19,16 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ## Clone the github repository
 
-git clone https://github.com/pedrojlucas/DRL_Navigation
+``` git clone https://github.com/pedrojlucas/DRL_Navigation ```
 
 ## Install all the dependencies in a Anaconda or miniconda environment
 
+```
 $ conda create -n dqn python=3.6
 $ conda activate dqn
 $ pip install -r requirements.txt
+
+```
 
 ## Install Unity environment
 
