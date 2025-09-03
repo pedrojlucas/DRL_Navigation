@@ -2,8 +2,9 @@
 
 The state space has 37 dimensions and consists of:
 
-the agent's velocity
-objects in the agents forward field of view
+* The agent's velocity.
+* Ray based objects position in the agents forward field of view.
+
 The agent receives a reward of +1 for a yellow banana, and -1 for blue banana. The goal is therefore to maximize the collection of yellow bananas while minimizing / avoiding blue ones.
 
 The action space for the agent consists of the following four possible actions:
