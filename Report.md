@@ -22,27 +22,29 @@ However, there are drawbacks in Deep Q-Learning. A common issue is that the rein
 To overcome this, experience replay is a technique that was used in this solution that uses the biologically inspired approach of replaying a random sample of prior actions to remove correlations in the observation sequence and smooth changes in the data distribution.
 
 # Model architecture and hyperparameters
-Fully connected layer 1: Input 37 (state space), Output 64, RELU activation
-Fully connected layer 2: Input 64, Output 64, RELU activation
-Fully connected layer 3: Input 64, Output 4 (action space)
+
+Fully connected layer 1: Input 37 (state space), Output 64, RELU activation.  
+Fully connected layer 2: Input 64, Output 64, RELU activation.  
+Fully connected layer 3: Input 64, Output 4 (action space).  
+
 The hyperparameters for tweaking and optimizing the learning algorithm were:
 
-max_t (1000): maximum number of timesteps per episode
-eps_start (1.0): starting value of epsilon, for epsilon-greedy action selection
-eps_end (0.01): minimum value of epsilon
-eps_decay (0.995): multiplicative factor (per episode) for decreasing epsilon
+max_t (1000): maximum number of timesteps per episode.  
+eps_start (1.0): starting value of epsilon, for epsilon-greedy action selection.  
+eps_end (0.01): minimum value of epsilon.  
+eps_decay (0.995): multiplicative factor (per episode) for decreasing epsilon.  
 
 # Plot of rewards
 Below is a training run of the above model architecture and hyperparameters:
 
-Number of agents: 1
-Number of actions: 4
-Episode 100	Average Score: 0.98
-Episode 200	Average Score: 3.66
-Episode 300	Average Score: 7.27
-Episode 400	Average Score: 10.19
-Episode 500	Average Score: 12.66
-Episode 518	Average Score: 13.02
+Number of agents: 1  
+Number of actions: 4  
+Episode 100	Average Score: 0.98  
+Episode 200	Average Score: 3.66  
+Episode 300	Average Score: 7.27  
+Episode 400	Average Score: 10.19  
+Episode 500	Average Score: 12.66  
+Episode 518	Average Score: 13.02  
 The plot of rewards for this run is as follows:
 
 <img width="356" height="236" alt="Trend_solucionDQNBanana" src="https://github.com/user-attachments/assets/72085674-89f1-4fff-89f9-c67ccac8abb4" />
